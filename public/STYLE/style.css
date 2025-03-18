@@ -304,7 +304,6 @@ main {
     margin-bottom: 75px;
     min-width: 259px;
 }
-
 /*-----------------------------------*\
     #theme
 \*-----------------------------------*/
@@ -313,9 +312,7 @@ body.dark-mode {
     background: var(--smoky-black);
     color: #ffffff;
 }
-body.dark-mode .form-input{
-    color: #ffffff !important;
-}
+
 /* Mode Terang */
 body.light-mode,
 body.light-mode .sidebar {
@@ -337,9 +334,15 @@ body.light-mode .about .about-text .service-title,
 body.light-mode article,
 body.light-mode article .service .service-title,
 body.light-mode article .article-title,
-body.light-mode .form-input,
 body.light-mode article .about-text {
     color: black !important;
+}
+
+/* Input dan textarea di mode terang */
+body.light-mode .form-input {
+    color: black; /* Teks hitam */
+    background-color: white; /* Background putih untuk input */
+    border: 1px solid #ccc; /* Border abu-abu */
 }
 
 /* Background putih untuk artikel di mode terang */
