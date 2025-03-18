@@ -280,6 +280,7 @@ article.active {
     background: var(--border-gradient-onyx);
     padding: 15px;
     padding-top: 45px;
+    margin-bottom: 45px;
     border-radius: 14px;
     box-shadow: var(--shadow-2);
     cursor: pointer;
@@ -787,6 +788,11 @@ body.light-mode article {
     }
   }
 
+  /* greeting text */
+  .greeting-text{
+    text-align: justify;
+  }
+
 /*-----------------------------------*\
   #NAVBAR
 \*-----------------------------------*/
@@ -1078,6 +1084,7 @@ body.light-mode article {
     font-size: 0.75rem;
     color: transparent;
   }
+
 
 
 /*-----------------------------------*\
