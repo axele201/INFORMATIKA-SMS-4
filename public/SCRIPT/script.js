@@ -87,65 +87,81 @@ function updateTime() {
   }
 }
 
-// Update the countdown for the next class
 function updateCountdown() {
-  var currentTime = new Date();
-  var schedule = [
-    { name: "PEMOGRAMAN LOGIC & SISTEMATIC", time: "17:00", day: "Senin" },
-    { name: "MIKROPROSESOR", time: "19:00", day: "Senin" },
-    { name: "BAHASA ASEMBLY", time: "17:00", day: "Selasa" },
-    { name: "PENGOLAHAN CITRA DIGITAL", time: "19:00", day: "Selasa" },
-    { name: "KRIPTOGRAFI", time: "17:00", day: "Rabu" },
-    { name: "TEORI GRAFIKA", time: "19:00", day: "Rabu" },
-    { name: "MULTIMEDIA", time: "19:00", day: "Kamis" }
-  ];
+    var currentTime = new Date();
+    var schedule = [
+        { name: "PEMOGRAMAN LOGIC & SISTEMATIC", time: "17:00", day: "Senin" },
+        { name: "MIKROPROSESOR", time: "19:00", day: "Senin" },
+        { name: "BAHASA ASEMBLY", time: "17:00", day: "Selasa" },
+        { name: "PENGOLAHAN CITRA DIGITAL", time: "19:00", day: "Selasa" },
+        { name: "KRIPTOGRAFI", time: "17:00", day: "Rabu" },
+        { name: "TEORI GRAFIKA", time: "19:00", day: "Rabu" },
+        { name: "MULTIMEDIA", time: "19:00", day: "Kamis" }
+    ];
 
-  const daysOfWeek = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
-  var currentDayIndex = currentTime.getDay();
+    const daysOfWeek = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
+    var currentDayIndex = currentTime.getDay();
 
-  var nextClass = null;
-  var nextClassTime = null;
+    var nextClass = null;
 
-  // Cari kelas berikutnya
-  for (var i = 0; i < schedule.length; i++) {
-    var classTimeParts = schedule[i].time.split(":");
-    var classDate = new Date();
+    // Cari kelas berikutnya berdasarkan hari dan jam
+    for (var i = 0; i < schedule.length; i++) {
+        var classTimeParts = schedule[i].time.split(":");
+        var classDayIndex = daysOfWeek.indexOf(schedule[i].day);
+        var classHour = parseInt(classTimeParts[0], 10);
+        var classMinute = parseInt(classTimeParts[1], 10);
 
-    // Tentukan hari kelas
-    var dayDifference = (daysOfWeek.indexOf(schedule[i].day) - currentDayIndex + 7) % 7;
-    classDate.setDate(currentTime.getDate() + dayDifference);
-    classDate.setHours(classTimeParts[0], classTimeParts[1], 0, 0);
+        // Jika hari kelas ini sudah lewat, lanjutkan ke kelas berikutnya
+        if (classDayIndex < currentDayIndex) continue;
 
-    if (classDate > currentTime) {
-      nextClass = schedule[i];
-      nextClassTime = classDate;
-      break;
+        // Jika hari sama, cek jam
+        if (classDayIndex === currentDayIndex && (classHour < currentTime.getHours() || (classHour === currentTime.getHours() && classMinute <= currentTime.getMinutes()))) {
+            continue;  // Kelas sudah lewat, lanjutkan
+        }
+
+        // Jika kita menemukan kelas yang lebih dekat, set nextClass
+        nextClass = schedule[i];
+        break; // Keluar dari loop setelah menemukan kelas pertama yang valid
     }
-  }
 
-  // Jika tidak ada kelas hari ini, pilih kelas pertama hari berikutnya
-  if (!nextClass) {
-    nextClass = schedule[0];
-    var nextDay = new Date();
-    nextDay.setDate(currentTime.getDate() + 1);
-    var classTimeParts = nextClass.time.split(":");
-    nextDay.setHours(classTimeParts[0], classTimeParts[1], 0, 0);
-    nextClassTime = nextDay;
-  }
+    // Jika tidak ada kelas hari ini, pilih kelas pertama untuk hari berikutnya
+    if (!nextClass) {
+        for (var i = 0; i < schedule.length; i++) {
+            var classTimeParts = schedule[i].time.split(":");
+            var classDayIndex = daysOfWeek.indexOf(schedule[i].day);
 
-  var remainingTime = nextClassTime - currentTime;
-  var hours = Math.floor((remainingTime / (1000 * 60 * 60)) % 24);
-  var minutes = Math.floor((remainingTime / (1000 * 60)) % 60);
-  var seconds = Math.floor((remainingTime / 1000) % 60);
+            // Pilih kelas pertama pada hari berikutnya setelah hari ini
+            if (classDayIndex > currentDayIndex) {
+                nextClass = schedule[i];
+                break;
+            }
+        }
+    }
 
-  // Check if elements exist before trying to set their text
-  const nextClassElement = document.getElementById("next-class");
-  const countdownElement = document.getElementById("countdown");
+    // Jika kelas ditemukan, hitung waktu mundur
+    if (nextClass) {
+        var nextClassDate = new Date(currentTime);
+        var classTimeParts = nextClass.time.split(":");
+        nextClassDate.setHours(classTimeParts[0], classTimeParts[1], 0, 0);
+        // Jika kelas terjadi pada hari berikutnya
+        if (daysOfWeek.indexOf(nextClass.day) !== currentDayIndex) {
+            nextClassDate.setDate(currentTime.getDate() + ((daysOfWeek.indexOf(nextClass.day) - currentDayIndex + 7) % 7));
+        }
 
-  if (nextClassElement && countdownElement) {
-    nextClassElement.innerText = nextClass.name + " (" + nextClass.day + ")";
-    countdownElement.innerText = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-  }
+        var remainingTime = nextClassDate - currentTime;
+        var hours = Math.floor((remainingTime / (1000 * 60 * 60)) % 24);
+        var minutes = Math.floor((remainingTime / (1000 * 60)) % 60);
+        var seconds = Math.floor((remainingTime / 1000) % 60);
 
-  setTimeout(updateCountdown, 1000); // Update countdown every second
+        // Menampilkan waktu mundur
+        const nextClassElement = document.getElementById("next-class");
+        const countdownElement = document.getElementById("countdown");
+
+        if (nextClassElement && countdownElement) {
+            nextClassElement.innerText = nextClass.name + " (" + nextClass.day + ")";
+            countdownElement.innerText = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        }
+    }
+
+    setTimeout(updateCountdown, 1000); // Update countdown setiap detik
 }
