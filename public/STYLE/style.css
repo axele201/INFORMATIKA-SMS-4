@@ -313,11 +313,9 @@ body.dark-mode {
     background: var(--smoky-black);
     color: #ffffff;
 }
-
 body.dark-mode .contact .contact-form .form-input{
     color: #ffffff !important;
 }
-
 /* Mode Terang */
 body.light-mode,
 body.light-mode .sidebar {
