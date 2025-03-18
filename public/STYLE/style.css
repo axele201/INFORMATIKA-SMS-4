@@ -314,7 +314,7 @@ body.dark-mode {
     color: #ffffff;
 }
 
-body.dark-mode .form-input{
+body.dark-mode .contact .contact-form .form-input{
     color: #ffffff !important;
 }
 
