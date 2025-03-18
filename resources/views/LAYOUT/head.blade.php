@@ -5,7 +5,7 @@
 {{-- fav icon --}}
 <link rel="shortcut icon" href="{{asset('IMG/DA.jpeg')}}" type="image/x-icon" />
 {{-- css --}}
-<link rel="stylesheet" href="{{asset('STYLE/style.css')}}" />
+<link rel="stylesheet" href="{{asset('STYLE/css.css')}}" />
 {{-- google font --}}
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
