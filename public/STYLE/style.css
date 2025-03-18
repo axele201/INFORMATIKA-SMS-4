@@ -313,8 +313,8 @@ body.dark-mode {
     background: var(--smoky-black);
     color: #ffffff;
 }
-body.dark-mode .contact .contact-form .form-input{
-    color: #ffffff;
+body.dark-mode .form-input{
+    color: #ffffff !important;
 }
 /* Mode Terang */
 body.light-mode,
@@ -337,7 +337,7 @@ body.light-mode .about .about-text .service-title,
 body.light-mode article,
 body.light-mode article .service .service-title,
 body.light-mode article .article-title,
-.form-input,
+body.light-mode .form-input,
 body.light-mode article .about-text {
     color: black !important;
 }
