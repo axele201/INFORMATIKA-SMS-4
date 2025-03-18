@@ -280,7 +280,7 @@ article.active {
     background: var(--border-gradient-onyx);
     padding: 15px;
     padding-top: 45px;
-    margin-bottom: 45px;
+    margin-bottom: 45px !important;
     border-radius: 14px;
     box-shadow: var(--shadow-2);
     cursor: pointer;
