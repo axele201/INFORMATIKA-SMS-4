@@ -23,7 +23,7 @@
         <ol class="timeline-list">
             <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">PEMOGRAMAN LOGIC & SISTEMATIC</h4>
-                <span>17.00 - 19.00</span>
+                <span>17:00 - 19:00</span>
                 <p class="timeline-text">Dani Ramdani</p>
                 <p class="timeline-text">ZOOM</p>
                 <a href="https://us06web.zoom.us/j/86527822218?pwd=UXSxjbYrZYXWDLBnqoLdUJUjYS4OOa.1">
@@ -40,7 +40,7 @@
 
             <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">MIKROPROSESOR</h4>
-                <span>19.00 - 21.00</span>
+                <span>19:00 - 21:00</span>
                 <p class="timeline-text">Junaidi S.kom M.kom</p>
                 <p class="timeline-text">ZOOM</p>
                 <a href="https://us06web.zoom.us/j/87060926007?pwd=GcysxlDaAyxJlNdqwNmujTnwzkDmbs.1">
@@ -67,7 +67,7 @@
         <ol class="timeline-list">
             <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">BAHASA ASEMBLY</h4>
-                <span>17.00 - 19.00</span>
+                <span>17:00 - 19:00</span>
                 <p class="timeline-text">Taufik Iqbal Ramdhani</p>
                 <p class="timeline-text">ZOOM</p>
                 <a href="https://us06web.zoom.us/j/81928555159?pwd=3sTxiwSlpH74Q4lmZF8dMobe4okcBe.1">
@@ -83,7 +83,7 @@
             </li>
             <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">PENGOLAHAN CITRA DIGITAL</h4>
-                <span>19.00 - 21.00</span>
+                <span>19:00 - 21:00</span>
                 <p class="timeline-text">Taufik Iqbal Ramdhani</p>
                 <p class="timeline-text">ZOOM</p>
                 <a href="https://us06web.zoom.us/j/81928555159?pwd=3sTxiwSlpH74Q4lmZF8dMobe4okcBe.1">
@@ -111,7 +111,7 @@
         <ol class="timeline-list">
             <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">KRIPTOGRAFI</h4>
-                <span>17.00 - 19.00</span>
+                <span>17:00 - 19:00</span>
                 <p class="timeline-text">Chendri Irawan Satrio Nugroho</p>
                 <p class="timeline-text">ZOOM</p>
                 <a href="https://us06web.zoom.us/j/86527822218?pwd=UXSxjbYrZYXWDLBnqoLdUJUjYS4OOa.1">
@@ -127,7 +127,7 @@
 
             <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">TEORI GRAFIKA</h4>
-                <span>19.00 - 21.00</span>
+                <span>19:00 - 21:00</span>
                 <p class="timeline-text">Luthfia Saskia</p>
                 <p class="timeline-text">ZOOM</p>
                 <a href="https://us06web.zoom.us/j/83022617691?pwd=LN7GgMO1Kaa4rkTynm3SEqDLKqKfhP.1">
@@ -154,7 +154,7 @@
         <ol class="timeline-list">
             <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">MULTIMEDIA</h4>
-                <span>19.00 - 21.00</span>
+                <span>19:00 - 21:00</span>
                 <p class="timeline-text">Tubagus Toifur</p>
                 <p class="timeline-text">ZOOM</p>
                 <a href="https://us06web.zoom.us/j/81928555159?pwd=3sTxiwSlpH74Q4lmZF8dMobe4okcBe.1">
