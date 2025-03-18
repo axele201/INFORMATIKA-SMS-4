@@ -10,7 +10,7 @@
             @include('LAYOUT.navbar')
             @include('CONTENT.greeting')
             @include('CONTENT.schedule')
-            {{-- @include('CONTENT.timeline') --}}
+            @include('CONTENT.timeline')
             @include('CONTENT.contact')
         </div>
     </main>
