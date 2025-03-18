@@ -314,6 +314,10 @@ body.dark-mode {
     color: #ffffff;
 }
 
+body.dark-mode .form-input{
+    color: white !important;
+}
+
 /* Mode Terang */
 body.light-mode,
 body.light-mode .sidebar {
