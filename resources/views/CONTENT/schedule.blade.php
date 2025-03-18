@@ -70,7 +70,7 @@
                 <span>17:00 - 19:00</span>
                 <p class="timeline-text">Taufik Iqbal Ramdhani</p>
                 <p class="timeline-text">ZOOM</p>
-                <a href="https://us06web.zoom.us/j/81928555159?pwd=3sTxiwSlpH74Q4lmZF8dMobe4okcBe.1">
+                <a href="https://us06web.zoom.us/j/84031845111?pwd=P9V8M3B5Fiu2E5TamsMCP066bu0LcY.1">
                     <button class="button-zoom">
                         <div class="dots_border"></div>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="sparkle">
