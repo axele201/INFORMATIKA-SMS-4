@@ -1,4 +1,4 @@
-<article class="schedule-Ti" data-page="schedule-Ti">
+<article class="Ti" data-page="Ti">
     <header>
         <h2 class="h2 article-title">SCHEDULE</h2>
     </header>
