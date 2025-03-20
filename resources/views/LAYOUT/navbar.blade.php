@@ -11,11 +11,6 @@
             <button class="navbar-link" data-nav-link>SCHEDULE</button>
         </li>
 
-        <!-- Schedule TI link -->
-        <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Schedule-Ti</button>
-        </li>
-
         <!-- Timeline Link -->
         <li class="navbar-item">
             <button class="navbar-link" data-nav-link>TIMELINE</button>
