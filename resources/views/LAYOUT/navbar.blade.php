@@ -13,7 +13,7 @@
 
         <!-- Schedule TI link -->
         <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>SCHEDULE-Ti</button>
+            <button class="navbar-link" data-nav-link>Ti</button>
         </li>
 
         <!-- Timeline Link -->
