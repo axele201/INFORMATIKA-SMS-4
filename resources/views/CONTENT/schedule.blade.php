@@ -26,7 +26,7 @@
                 <span>17:00 - 19:00</span>
                 <p class="timeline-text">Dani Ramdani</p>
                 <p class="timeline-text">ZOOM</p>
-                <a href="https://us06web.zoom.us/j/86527822218?pwd=UXSxjbYrZYXWDLBnqoLdUJUjYS4OOa.1">
+                <a href="https://us06web.zoom.us/j/84437922050?pwd=kl5cSIdlntkkw04aeZ6baQjF05fLRZ.1">
                     <button class="button-zoom">
                         <div class="dots_border"></div>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="sparkle">
@@ -43,7 +43,7 @@
                 <span>19:00 - 21:00</span>
                 <p class="timeline-text">Junaidi S.kom M.kom</p>
                 <p class="timeline-text">ZOOM</p>
-                <a href="https://us06web.zoom.us/j/87060926007?pwd=GcysxlDaAyxJlNdqwNmujTnwzkDmbs.1">
+                <a href="https://us06web.zoom.us/j/83022617691?pwd=LN7GgMO1Kaa4rkTynm3SEqDLKqKfhP.1">
                     <button class="button-zoom">
                         <div class="dots_border"></div>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="sparkle">
@@ -70,7 +70,7 @@
                 <span>17:00 - 19:00</span>
                 <p class="timeline-text">Taufik Iqbal Ramdhani</p>
                 <p class="timeline-text">ZOOM</p>
-                <a href="https://us06web.zoom.us/j/84031845111?pwd=P9V8M3B5Fiu2E5TamsMCP066bu0LcY.1">
+                <a href="https://us06web.zoom.us/j/3159590870?pwd=YQ0sy6ESgJ3gbTzAQZb6UEHbwpJWD1.1&omn=87990632358">
                     <button class="button-zoom">
                         <div class="dots_border"></div>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="sparkle">
@@ -86,7 +86,7 @@
                 <span>19:00 - 21:00</span>
                 <p class="timeline-text">Taufik Iqbal Ramdhani</p>
                 <p class="timeline-text">ZOOM</p>
-                <a href="https://us06web.zoom.us/j/81928555159?pwd=3sTxiwSlpH74Q4lmZF8dMobe4okcBe.1">
+                <a href="https://us06web.zoom.us/j/87992804645?pwd=ZGZH62GtZAA2qGK3tqlFcJzSA9Fe7j.1">
                     <button class="button-zoom">
                         <div class="dots_border"></div>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="sparkle">
@@ -114,7 +114,7 @@
                 <span>17:00 - 19:00</span>
                 <p class="timeline-text">Chendri Irawan Satrio Nugroho</p>
                 <p class="timeline-text">ZOOM</p>
-                <a href="https://us06web.zoom.us/j/86527822218?pwd=UXSxjbYrZYXWDLBnqoLdUJUjYS4OOa.1">
+                <a href="https://us06web.zoom.us/j/89023470121?pwd=4DMXTiAohWoh3NTn7KQYJDXdOU0Id0.1">
                     <button class="button-zoom">
                         <div class="dots_border"></div>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="sparkle">
@@ -130,7 +130,7 @@
                 <span>19:00 - 21:00</span>
                 <p class="timeline-text">Luthfia Saskia</p>
                 <p class="timeline-text">ZOOM</p>
-                <a href="https://us06web.zoom.us/j/83022617691?pwd=LN7GgMO1Kaa4rkTynm3SEqDLKqKfhP.1">
+                <a href="https://us06web.zoom.us/j/87052362861?pwd=rE2XapCPlY1J90KulPyExf8dYPy5pY.1">
                     <button class="button-zoom">
                         <div class="dots_border"></div>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="sparkle">
@@ -157,7 +157,7 @@
                 <span>19:00 - 21:00</span>
                 <p class="timeline-text">Tubagus Toifur</p>
                 <p class="timeline-text">ZOOM</p>
-                <a href="https://us06web.zoom.us/j/81928555159?pwd=3sTxiwSlpH74Q4lmZF8dMobe4okcBe.1">
+                <a href="https://us06web.zoom.us/j/84714315806?pwd=F9AgKYb00OPV7MeieL7vmMUb2trzXz.1">
                     <button class="button-zoom">
                         <div class="dots_border"></div>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="sparkle">
